@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <title>Сервис +</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+
+<body>
+
+    <section class="one">
+        <!-- --------- NAVIGATION --------- -->
+        <div class="site-nav">
+            <div class="container">
+                <a href="#" class="main-logo"><img src="img/logo.png" alt="Доктор Мобил"></a>
+                <span class="main-nav-trigger trigger-nav">&#9776;</span>
+                <ul class="horisontal-nav trigger-victim" id="menu">
+                    
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#experience">Наш опыт</a></li>
+                    <li><a href="#fix">Отзывы</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCPmavnZgHPjT5Ov30jw1xqA/featured">Видеоблог</a></li>
+                    <li class="nav-item"><a href="#contact">Контакты</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="vidosik_bg">
+            <video autoplay loop muted="true" poster="img/poster.jpg" id="videoHide">
+                <source src="video/video.mp4" type="video/mp4">
+
+            </video>
+        </div>
+        <div class="bg_w">
+
+        </div>
+        <div class="content">
+            <div class="naklon" id="nakl">
+                <h1>Мы лучше радиорынка!!!</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutUs" id="about">
+        <div class="container">
+            <div class="row">
+                <!--                <h1 class="">СРОЧНЫЙ РЕМОНТ<span>ТЕЛЕФОНОВ, НОУТБУКОВ И КОМПЬЮТЕРОВ</span></h1>-->
+                <div class="stn-header text-center wow lightSpeedIn" data-wow-duration="2s" data-wow-offset="100">
+                    <h1>Срочный ремонт</h1>
+                    <h2 class>телефонов, ноутбуков и компьютеров</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img class="about-gadgets wow rotateInDownLeft" data-wow-duration="2s" data-wow-offset="100" src="img/gadgetsab.png" alt=""></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  about-text">
+                    <article>
+                        <p><strong>Сервис ДОКТОР МОБИЛ</strong> готов предоставить качественный ремонт компьютерной техники и мобильной электроники любых брендов за приемлемую стоимость. ПК, ноутбуки и телефоны, поступающие в мастерскую, для определения характера и причин поломок <strong>обязательно диагностируются с помощью только профессионального оборудования</strong>. На всех последующих стадиях работы с техникой также используются профессиональные инструменты и высококлассные материалы.</p>
+
+                        <p>На ремонт компьютеров и ноутбуков с установкой и заменой комплектующих, сервисный центр предоставляет гарантию сроком до 3 лет.</p>
+
+
+                        <p>Сервисный центр по ремонту компьютерной техники ДОКТОР МОБИЛ работает в Киеве. Если Вы не из Киева, можете выслать нам технику <strong>Новой Почтой</strong>. Инженеры СЦ обязательно выполнят заказ в оговоренные сроки с учетом личных пожеланий клиента.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="howmany" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="stn-header text-center">
+                    <h1> Наш Опыт</h1>
+                    <h2 class="naklonTwo wow rollIn" data-wow-duration="2s" data-wow-offset="100">Вот сколько мы работаем</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeIn" data-wow-delay="2.5s">
+                    <div class="howmany__item">
+                        <div class="circle"><img src="img/calendar.png" alt=""></div>
+                        <h3>Дней работаем</h3>
+                    </div>
+                    <h3 class="counter" id="day"></h3>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeIn" data-wow-delay="2.5s">
+                    <div class="howmany__item">
+                        <div class="circle"><img src="img/circuit-board.png" alt=""></div>
+                        <h3>Отремонтировано техники</h3>
+                    </div>
+                    <h3 class="counter" id="fixedPhone"></h3>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 wow fadeIn" data-wow-delay="2.5s">
+                    <div class="howmany__item">
+                        <div class="circle"><img src="img/logoNP.png" alt=""></div>
+                        <h3>Ремонтов с Новой Почты</h3>
+                    </div>
+                    <h3><span class="counter" id="novap"></span></h3>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6"></div>
+            </div>
+        </div>
+    </section>
+    <section class="fixPhone" id="fix">
+
+        <div class="container">
+            <div class="row">
+                <div class="stn-header text-center">
+                    <h1>Ремонтируем, а не меняем целиком.</h1>
+                    <h2 class="naklonTwo wow rollIn" data-wow-duration="2s" data-wow-offset="100" src="img/gadgetsab.png">Умеем ремонтировать любые неисправности.</h2>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><img src="img/iphone_5c_apart.jpg" alt="" class="about-gadgets wow fadeIn" data-wow-duration="2s" data-wow-offset="100" data-wow-delay="2.5s"></div>
+
+                <div class="col-md-6 about-text">
+                    <p class="vert-center">Восстанавливаем неисправные модули телефонов и ноутбуков,
+                        <br> а не меняем их целиком.
+                        <br> Благодаря чему, стоимость
+                        <br> ремонта значительно снижается.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="np">
+        <div class="container">
+            <div class="row">
+                <div class="stn-header text-center">
+                    <h1>Удаленный ремонт</h1>
+                    <h2 class="naklonTwo wow rollIn" data-wow-duration="2s" data-wow-offset="100">Принимаем телефоны новой почтой</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 about-text">
+
+                    <p class="vert-center">1. Вы звоните нам.
+                        <br>2. Отправляете нам.
+                        <br> 3. Мы отправляем Вам исправный телефон на следующий день.
+                    </p>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="img/she_broke_iphone.gif" alt="" class="about-gadgets wow fadeInLeft" data-wow-duration="2s" data-wow-offset="100" data-wow-delay="1s">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="advantage">
+        <div class="container">
+            <div class="row">
+                <div class="stn-header text-center">
+                    <h1>Нашы приемущества </h1>
+                    <h2 class="naklonTwo wow rollIn" data-wow-duration="2s" data-wow-offset="100">Почему мы лучшие</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center wow fadeIn" data-wow-duration=".5s" data-wow-offset="50" data-wow-delay="2s">
+                    <div class="gear-container">
+                        <div class="gear"></div>
+                        <div class="icon-gear "></div>
+                    </div>
+                    <p class="gear-descr">Честные и доступные цены </p>
+                </div>
+                <div class="col-md-3 text-center wow fadeIn" data-wow-duration=".5s" data-wow-offset="50" data-wow-delay="2.5s">
+                    <div class="gear-container ">
+                        <div class="gear"></div>
+                        <div class="icon-gear two"></div>
+                    </div>
+                    <p class="gear-descr">Гарантия на все виды работ</p>
+                </div>
+                <div class="col-md-3 text-center wow fadeIn" data-wow-duration=".5s" data-wow-offset="50" data-wow-delay="3s">
+                    <div class="gear-container">
+                        <div class="gear"></div>
+                        <div class="icon-gear three"></div>
+                    </div>
+                    <p class="gear-descr">Только оригинальные комплектующие</p>
+                </div>
+                <div class="col-md-3 text-center wow fadeIn" data-wow-duration=".5s" data-wow-offset="50" data-wow-delay="3.5s">
+                    <div class="gear-container">
+                        <div class="gear"></div>
+                        <div class="icon-gear four"></div>
+                    </div>
+                    <p class="gear-descr">Сертифицированные опытные мастера</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="stn-header text-center">
+                    <h1>отзывы</h1>
+                    <h2 class="naklonTwo wow rollIn" data-wow-duration="2s" data-wow-offset="100" src="img/gadgetsab.png">честно про нас</h2>
+
+                </div>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="col-md-3"><img src="img/ava/1.jpg" alt="" class="img-circle"></div>
+                                <div class="col-md-9">
+                                    <div class="review">
+                                        <h3>Иван Борн</h3>
+                                        <p>Не в первый раз уже обращаюсь к вам, и каждый раз поражают мастера. В последний раз мастер снова поразил своим профессиональным отношением к работе: приехал вовремя, быстро всё починил, расскаал о поломке и устройстве.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="col-md-3"><img src="img/ava/3.jpg" alt="" class="img-circle"></div>
+                                <div class="col-md-9">
+                                    <div class="review">
+                                        <h3>Инга Джимм</h3>
+                                        <p>Ребята просто молодцы - вежливые, внимательные. Это непременно располагает и с вами хочется иметь дело. После ремонта экрана телефон прислали Новой Почтой и прилжили ещё защитную плёнку!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="col-md-3"><img src="img/ava/2.jpg" alt="" class="img-circle"></div>
+                                <div class="col-md-9">
+                                    <div class="review">
+                                        <h3>Валентин Исаев</h3>
+                                        <p>Пропал звук у планшета. Жмешь, жмешь на кнопку громкости — а результат никакой. Решил не рисковать и отдать технику в руки специалистов. Проблему решили за день.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="col-md-3"><img src="img/ava/6.jpg" alt="" class="img-circle"></div>
+                                <div class="col-md-9">
+                                    <div class="review">
+                                        <h3>Максим Горобец</h3>
+                                        <p>Отремонтировали телефон быстро и без полоскания мозга. И после ремонта еще и гарантию дали. Сразу видно честный подход. Молодцы!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="col-md-3"><img src="img/ava/4.jpg" alt="" class="img-circle"></div>
+                                <div class="col-md-9">
+                                    <div class="review">
+                                        <h3>Петр Самойлов</h3>
+                                        <p>Полетел смартфон в буквальном смысле: корпус треснул, камера разбита плюс на экране появились полосы. Порекомендовали Сервис Плюс приятели на работе. На ремонт ушло пару дней. Спасибо!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="col-md-3"><img src="img/ava/5.jpg" alt="" class="img-circle"></div>
+                                <div class="col-md-9">
+                                    <div class="review">
+                                        <h3>Антон Федрищенко</h3>
+                                        <p>Качественно и быстро заменили видеокарту и теперь компьютер работает на ура. Спасибо огромное за комфортные условия и недорогие цены.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="col-md-3"><img src="img/ava/7.jpg" alt="" class="img-circle"></div>
+                                <div class="col-md-9">
+                                    <div class="review">
+                                        <h3>Михаил Петров</h3>
+                                        <p>Заглючил iPhone 6, выбрасывает из программ и все. Позвонил, оператор принял заявку и указал куда отправлять. Через пару дней получил телефон приведенный в чувства. Благодарю! </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="col-md-3"><img src="img/ava/8.jpg" alt="" class="img-circle"></div>
+                                <div class="col-md-9">
+                                    <div class="review">
+                                        <h3>Марианна Бойченко</h3>
+                                        <p>Уронила планшет и разбила стекло на экране. Зашла в сервис рядом с работой, но мне там тааааакую цену заломили! Коллега посоветовала обратиться сюда и я ни разу не пожалела. Доставка, гарантия, цена адекватная – что еще нужно? Рекомендую.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-center">
+                        <img src="img/logo.png" alt="Доктор Мобил" class="logo">
+                    </div>
+                    <div class="col-md-5 col-md-offset-4 text-center">
+                        <div class="naklonTwo">
+                            <a href="0630000000" type="tel" class="tel"><i class="icon-phone"></i> 0630000000</a>
+                            <a href="0630000000" type="tel" class="tel"><i class="icon-phone"></i> 0630000000</a>
+                            <p class="addr "><i class="icon-map-marker"></i>г.Киев метро Дарница, ул. Малышка 15а</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/readmore.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/jquery.countup.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        wow = new WOW({
+            boxClass: 'wow', // default
+            animateClass: 'animated', // default
+            offset: 0, // default
+            mobile: false, // default
+            live: true // default
+        })
+        wow.init();
+
+    </script>
+    <script>
+        $(".carousel").carousel({
+            interval: 10000
+        })
+
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() { $("#menu").on("click", "a", function(event) { event.preventDefault(); var id = $(this).attr('href'), top = $(id).offset().top; $('body,html').animate({ scrollTop: top }, 1500); }); });
+
+        </script>
+
+
+
+</body>
+
+</html>
