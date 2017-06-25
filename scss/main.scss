@@ -99,6 +99,7 @@ li {
     padding: 15px 0;
     .horisontal-nav {
         float: right;
+        padding: 0;
         .nav-item,
         li {
             display: inline-block !important;
@@ -180,7 +181,6 @@ video {
     color: #f1f1f1;
     font-family: "BebasRegular" !important;
     text-transform: uppercase;
-    
     .howmany__item {
         min-height: 172px;
         padding-top: 50px;
@@ -357,14 +357,12 @@ video {
     width: 100%;
     min-height: 500px;
     margin-bottom: 30px;
-
     .review {
         padding: 1% 3.5%;
         min-height: 100%;
         border: 1px solid #f1f1f1;
         margin: 5% 0;
         height: 180px;
-        
     }
     .img-circle {
         width: 125px;
@@ -382,11 +380,11 @@ footer {
         .logo {
             margin: 15px 0;
         }
-//        
-//        .naklonFooter{
-//            margin-top: 40px !important;
-//            margin-bottom: 5px !important;
-//        }
+        //        
+        //        .naklonFooter{
+        //            margin-top: 40px !important;
+        //            margin-bottom: 5px !important;
+        //        }
         .tel {
             color: #f1f1f1;
             text-decoration: none;
@@ -436,8 +434,10 @@ footer {
         max-width: 87%;
     }
     .site-nav {
-        position: relative;
+        position: fixed;
         padding: 15px 0;
+        width: 100vw;
+        z-index: 9999;
     } //site-nav
     .site-nav .horisontal-nav {
         position: absolute;
@@ -454,6 +454,7 @@ footer {
             width: 100%;
             text-align: center;
             border-bottom: 1px solid #f1f1f1;
+            margin-right: 0;
         }
         a {
             display: inline-block;

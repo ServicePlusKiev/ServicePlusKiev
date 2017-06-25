@@ -1,3 +1,6 @@
+
+
+
 (function ($) {
     'use strict'
 
@@ -7,17 +10,18 @@
             var $trigger = $('.trigger-nav'),
                 $naklon = $("#nakl"),
                 $menu = $('.trigger-victim');
-            /*$menu.hide();*/
+            
             $trigger.click(function () {
                 $(this).next($menu).fadeToggle();
+                
             });
-
-            $(window).resize(function () {
-                if ($(window).width() > 992) {
-                    $menu.removeAttr('style');
-
-                }
-            });
+//
+//            $(window).resize(function () {
+//                if ($(window).width() > 992) {
+//                    $menu.removeAttr('style');
+//
+//                }
+//            });
         }
         blueasyMenu();
 
@@ -26,8 +30,9 @@
                 $video = $("#videoHide"),
                 $menu = $('.trigger-victim'),
                 $trigger = $(".trigger-nav");
-            $(window).resize(function () {
+            $(window).ready(function () {
                 if (document.documentElement.clientWidth < 992) {
+                    $('.site-nav').css('background-color','rgba(0, 0, 0, 0.7)');
                     $menu.hide();
                     $video.attr({
                         preload: "none"
